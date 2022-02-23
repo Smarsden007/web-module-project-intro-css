@@ -1,3 +1,40 @@
+*{
+    box-sizing:border-box;
+    border: 1px solid grey;
+    max-width:100%;
+}
+
+/*General Styles*/
+html{
+    font-size: 62.5%;
+}
+
 body{
-    background-color:red;
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+section{
+    padding:4% 0;
+    width:90%;
+    margin: 0 auto;
+}
+
+/*header section styles*/
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align:center;
+    border-radius: 10px;
+    color:white
+    text-decoration:none;
 }
